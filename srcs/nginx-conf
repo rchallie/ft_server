@@ -1,0 +1,15 @@
+server
+{
+	listen 90;
+	listen [::]:90;
+
+	server_name monsupersite;
+	
+	root /var/www/monsupersite;
+	index index.html;
+	
+	# Que doit faire le serveur doit faire quand on se connect dessus
+	location / {
+		try_files $uri $uri/ =404;
+	}
+}
