@@ -9,15 +9,14 @@ server{
 
 	listen 443 ssl ;
 	listen [::]:443 ssl ;
-
+	
+	server_name monsupersite;
+	
 	ssl_certificate /etc/nginx/ssl/monsupersite.pem;
 	ssl_certificate_key /etc/nginx/ssl/monsupersite.key;
 
 	root /var/www/monsupersite;
-
 	index index.html index.htm index.nginx-debian.html index.php;
-
-    server_name monsupersite;
 
 	location / {
 		try_files $uri $uri/ =404;
