@@ -9,14 +9,6 @@ mkdir /var/www/monsupersite && touch /var/www/monsupersite/index.php
 echo "<?php phpinfo(); ?>" >> /var/www/monsupersite/index.php
 
 # SSL
-#mkdir /etc/nginx/ssl
-#cd /etc/nginx/ssl
-#wget https://github.com/FiloSottile/mkcert/releases/download/v1.1.2/mkcert-v1.1.2-linux-amd64
-#mv mkcert-v1.1.2-linux-amd64 mkcert
-#chmod +x mkcert
-#./mkcert -install
-#./mkcert monsupersite
-#cd
 mkdir /etc/nginx/ssl
 openssl req -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out /etc/nginx/ssl/monsupersite.pem -keyout /etc/nginx/ssl/monsupersite.key -subj "/C=FR/ST=Paris/L=Paris/O=42 School/OU=rchallie/CN=monsupersite"
 
