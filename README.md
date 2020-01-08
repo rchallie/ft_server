@@ -3,11 +3,11 @@ Ft_Server (42cursus) 2019-2020
 
 - Actual Status : Finished
 - Result        : 100%
-- Observations : 
+- Observations : The best is to run the container with daemon off and detached (not usefull here but it's to kubernetes project)
  > CMD build:<br>
  > `$> docker build -t name .`<br>
  > CMD run:<br>
- > `$> docker run --name aname -ti -d -p 80:80 -p 443:443 name`<br>
+ > `$> docker run --name aname -it -p 80:80 -p 443:443 name`<br>
 
 Utils :
   [Generate SSL](https://linuxize.com/post/creating-a-self-signed-ssl-certificate/)
