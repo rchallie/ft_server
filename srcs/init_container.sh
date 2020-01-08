@@ -37,5 +37,5 @@ mv wordpress/ /var/www/monsupersite
 mv /tmp/wp-config.php /var/www/monsupersite/wordpress
 
 service php7.3-fpm start
-service nginx reload
-/usr/sbin/nginx -g "daemon off;"
+service nginx start
+bash

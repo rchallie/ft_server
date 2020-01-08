@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Dockerfile                                         :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: rchallie <rchallie@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/01/06 14:31:22 by rchallie          #+#    #+#              #
+#    Updated: 2020/01/06 14:31:24 by rchallie         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 FROM debian:buster
 
 RUN apt-get update && apt-get install -y procps && apt-get install nano && apt-get install -y wget
