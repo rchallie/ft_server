@@ -1,8 +1,8 @@
-# ❌ Ft_Server
+# ✅ Ft_Server
 Ft_Server (42cursus) 2019-2020
 
-- Actual Status : In progress.
-- Result        : null
+- Actual Status : Finished
+- Result        : 100%
 - Observations : 
  > CMD build, run, open docker: docker build -t test . && docker run --name untest -ti -d -p 80:80 -p 443:443 test && docker exec -ti untest bash
 
