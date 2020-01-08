@@ -4,7 +4,10 @@ Ft_Server (42cursus) 2019-2020
 - Actual Status : Finished
 - Result        : 100%
 - Observations : 
- > CMD build, run, open docker: docker build -t test . && docker run --name untest -ti -d -p 80:80 -p 443:443 test && docker exec -ti untest bash
+ > CMD build:
+ > `$> docker build -t name .`
+ > CMD run:
+ > `$> docker run --name aname -ti -d -p 80:80 -p 443:443 name`
 
 Utils :
   [Generate SSL](https://linuxize.com/post/creating-a-self-signed-ssl-certificate/)
