@@ -17,6 +17,9 @@ Utils :
   [Install phpmyadmin](https://www.digitalocean.com/community/tutorials/how-to-install-phpmyadmin-from-source-debian-10)
   [Install wordpress](https://www.osradar.com/install-wordpress-debian-10/)
 
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
 This is my ft_server project from the 42 cursus,
 need help:
 rchallie@student.42.fr
