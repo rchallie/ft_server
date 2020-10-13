@@ -1,4 +1,4 @@
-# ✅ Ft_Server (⚠️ OUTDATED ⚠️)
+# ✅ Ft_Server
 Ft_Server (42cursus) 2019-2020
 
 - Actual Status : Finished
